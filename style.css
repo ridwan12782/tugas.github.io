@@ -1,0 +1,76 @@
+/* Styling untuk tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling untuk header kolom */
+  th {
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: bold;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  /* Styling untuk sel data */
+  td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  /* Warna latar belakang setiap baris bergantian */
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Tombol aksi di kolom terakhir */
+  td:last-child {
+    text-align: center;
+  }
+  
+  /* Styling untuk tombol */
+  button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Form input untuk tambah perangkat */
+  form {
+    margin-bottom: 20px;
+  }
+  
+  input[type=text], input[type=date], select {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  button[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
